@@ -1,4 +1,4 @@
-/* Container */
+
 
 .container {
   margin: 0 auto;
@@ -2020,9 +2020,19 @@ button,
       background-position: center center;
     }
 
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      z-index: -1;
+      /* object-fit: cover; */
+    }
+
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      /* background-color: #81918E; */
+      /* background-image: url("../../images/banner.jpg"); */
     }
 
     #main > section.two {
@@ -2085,7 +2095,7 @@ button,
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 738px) and (max-width: 1320px) { /* ORGINAL min: 961 and max: 1320 */
 
   /* Basic */
 
@@ -2156,7 +2166,7 @@ button,
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 737px) { /* 960px originally */
 
   /* Basic */
 
